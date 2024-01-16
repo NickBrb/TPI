@@ -17,5 +17,5 @@
 
 <input type ="text" bind:value={nuovoTodo} class="input input-bordered w-full max-w-xs"/>
 <br><br>
-<button on:click={AddTodo} class="btn btn-outline btn-info"> Aggiungi </button>
+<button on:click={AddTodo}  class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"> Add... </button>
 
