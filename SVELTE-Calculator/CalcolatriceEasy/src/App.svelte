@@ -75,6 +75,10 @@
   background: #00acee;
   color: #eee;
 }
+
+.calculator button {
+  outline: none;
+}
 </style>
 <div class="calculator">
   <input type="text" bind:value={console}/>
