@@ -8,15 +8,17 @@
   let state = null;
 
   function resolveState(){
-
   }
 
   function setOperation(operation){
-
+    resolveState();
+    state = operation;
   }
 
   function setValue(value){
-
+    if(console.toString() == "0" || state == "equal"){
+      console = "";
+    }
   }
 
   function equal(){
