@@ -36,6 +36,45 @@
   box-shadow: 2px 2px 2px #eee;
   padding:10px;
 }
+.calculator.input{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    text-align: right;
+    font-size: 20px;    
+}
+.calculator.buttons{
+  display: flex;
+  flex-wrap: wrap;
+}
+.calculator.buttons.operations{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.calculator.buttons.operations button{
+  width: 24%;
+}
+.calculator.buttons.numbers{
+  width: 75%;
+}
+.calculator.buttons.numbers > div{
+  display: flex;
+  justify-content: space-between;
+}
+.calculator.buttons.numbers > div button{
+  width: 32%; 
+}
+.calculator.equal{
+  flex: 1; 
+}
+.calculator.equal button{
+  margin-left: 5%;
+  width: 95%;
+  height: 95%;
+  background: #00acee;
+  color: #eee;
+}
 </style>
 <div class="calculator">
   <input type="text" bind:value={console}/>
